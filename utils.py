@@ -67,10 +67,14 @@ BEST_ALGORITHM_PER_COMBINATION_OF_FEATURES_PATH = "/home/mwynen/data/MSDT/result
 MODELS_OUTPERFORMING_MCDONALD_PATH = "/home/mwynen/data/MSDT/results/models_outperforming_mcdonald.csv"
 ALL_MODELS_REGARDLESS_OF_PERFORMANCE_PATH = "/home/mwynen/data/MSDT/results/all_models.csv"
 MODELS_OUTPUT_DIR = "/home/mwynen/data/MSDT/results/models/"
+FINAL_MODELS_OUTPUT_DIR = "/home/mwynen/data/MSDT/results/final_models/"
 ALL_MODELS_FOR_ONLINE_TOOL_PATH = "/home/mwynen/data/MSDT/results/all_models_for_online_tool.csv"
+ALL_CALIBRATED_ENSEMBLE_MODELS_FOR_ONLINE_TOOL_PATH = "/home/mwynen/data/MSDT/results/all_calibrated_ensemble_models_for_online_tool.csv"
 TEST_PREDICTIONS_PATH = "/home/mwynen/data/MSDT/results/test_predictions.csv"
 RESULTS_TXT = "/home/mwynen/data/MSDT/results/results.txt"
 PLOTS_OUTPUT_PATH = "/home/mwynen/data/MSDT/results/plots/"
+PRODROMAL_TEST_DATA_PATH = "/home/mwynen/data/MSDT/test_set_prodromal.xlsx"
+PRODROMAL_TEST_PREDICTIONS_PATH = "/home/mwynen/data/MSDT/test_set_prodromal_predictions.csv"
 
 USE_PIPELINE = False
 

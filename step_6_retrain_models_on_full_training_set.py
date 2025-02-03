@@ -47,14 +47,15 @@ def f1_score(y_true, y_pred):
     return f1
 
 
-beating_mcdonald = pd.read_csv(MODELS_OUTPERFORMING_MCDONALD_PATH)
+# df_models = pd.read_csv(MODELS_OUTPERFORMING_MCDONALD_PATH)
+df_models = pd.read_csv(ALL_MODELS_REGARDLESS_OF_PERFORMANCE_PATH)
 
 X, y = get_full_dataset(TRAINING_DATA_PATH, dropna=False, return_X_y=True, prepare=True)
 
 all_models_for_online_tool = []
 
-for i, row in beating_mcdonald.iterrows():
-    print(f"Progress: {i + 1}/{len(beating_mcdonald)}")
+for i, row in df_models.iterrows():
+    print(f"Progress: {i + 1}/{len(df_models)}")
     model_name = row["model"]
     threshold = row["threshold"]
     features = [f for f in row.index if f in ALL_FEATURES and row[f]]
